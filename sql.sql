@@ -22,4 +22,4 @@ CREATE TABLE PRODUCT (
   item_views INT(11) NOT NULL,
   item_sale INT(11) NOT NULL,
   date_added VARCHAR(256) NOT NULL
-);
+)
