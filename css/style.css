@@ -708,6 +708,16 @@ div.dashboard#admin_dashboard .menu div#menu_actions {
   color: white;
 }
 
+#approved_businesses div.display_approved_businesses table th select {
+  width: 90%;
+  font-size: 1rem;
+  padding: 5px 7px;
+  background: var(--secondary-color);
+  color: var(--first-color);
+  font-weight: bold;
+  border: none;
+}
+
 /* approved businesses */
 
 #approved_businesses div.display_approved_businesses {
@@ -985,4 +995,18 @@ div.dashboard#admin_dashboard .menu div#menu_actions {
 #editProfile-div{
   width: 100%;
   text-align: center;
+}
+#fetchval,#fetchvalue{
+  background-color: var(--first-color);
+  padding: 8px;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.spanFiltro{
+  color:var(--secondary-color);
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: "Dela Gothic One", cursive;
 }
