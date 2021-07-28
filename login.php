@@ -1,10 +1,10 @@
 <?php 
 // require_once('inculdes/session.php');
 	require_once('includes/functions.inc.php');
-	//require_once('includes/session.php');
+	require_once('includes/session.php');
 	if(isset($_SESSION['userid'])){
-    		header('location:dashboard.php');
-		}
+		header('location: dashboard');
+	}
 	?>
 
 <!DOCTYPE html>
@@ -14,7 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<?php include 'includes/nav.inc.php' ?>	
+	<?php $active= "Log In"; include 'includes/nav.inc.php'; ?>	
 	
 		<form action="includes/login.inc.php" method="post">
 
@@ -41,7 +41,9 @@
 		</div>
 	
 	
-
+	<script src="https://kit.fontawesome.com/7071bdd24d.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
 	
 
 </body>
